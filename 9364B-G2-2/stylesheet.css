@@ -3,38 +3,94 @@ body {
     padding: 0;
 }
 header {
-    background-color: darkgrey;
-    overflow: hidden;
-    padding: 4px;
 }
 header h1 {
-    text-align: center;
     text-transform: uppercase;
+    float: left;
+    color: white;
+    
 }
-#navbar {
-    background-color: black;
+header #navbar {
+    background-color: darkslategrey;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    box-shadow:  0 8px 5px -2px black;
+    z-index: 2;
 }
-#navbar a {
+header #navbar h1 {
+    margin-left: 30px;
+    margin-top: 25px;
+    color: white;
+    float: left;
+}
+header #navbar a {
     text-decoration: none;
     color: white;
     float: right;
-    padding: 15px;
-    border-color: black;
+    padding: 25px;
+    font-size: 20px;
 }
 #navbar a:hover {
     background-color: dimgray;
 }
+.container-main {
+    padding-top: 70px;
+}
+
+.container-main img {
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+#overlay {
+    position: absolute;
+    top: 0;
+    bottom: 233px;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+    background-color: #000000;
+}
+#overlay h1 {
+    text-align: center;
+    color: white;
+    margin-top: 350px;
+    margin-right: 850px;
+    z-index: 4;
+}
 main {
     height: 400px;
-    padding-bottom: 150px;
+    margin-top: -30px;
+    padding-bottom: auto;
+    background-color: grey;
 }
-section {
-    background-color: gray;
-    margin-top: -20px;
+#main-top  h2{
+    float: right;
+    background-color: grey;
 }
-section h2 {
-    text-align: center;
+#main-top  p{
+    float: left;
+    padding-right: 50px;
+    margin-right: 25%;
+    background-color: grey;
+}
+#main-mid  h2{
+    display: block;
+    float: right;
+}
+#main-mid  p{
+    display: block;
+    float: left;
+}
+#main-bot  h2{
+    display: block;
+    float: right;
+}
+#main-bot  p{
+    display: block;
+    float: left;
 }
 footer {
     background-color: black;
