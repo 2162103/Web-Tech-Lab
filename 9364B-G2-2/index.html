@@ -1,50 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Inclusion</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+
+<!--HEADER or the whole background image-->
+
 <header>
-    <nav id="navbar">
-        <h1>Inclusion</h1>
-        <a href="#home">About Inclusion</a> 
-        <a href="#contact">About Us</a> 
-    </nav>
+    <!--ROW containing the container-->
+    <div class="row">
+        <!--CONTAINER contains navigations-->
+        <div class="container">
+            <!--BRANDING / logo-->
+            <div id="branding">
+                <!--id HIGHLIGHT text decoration of BRANDING-->
+                <h1><span class="highlight">Inclusion</span></h1>
+            </div>
+            <!--main-nav / MAIN NAVIGATOR-->
+            <ul class="main-nav">
+                <li class="current"><a href="">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#boxes">ABOUT INCLUSION</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+            <!--CLOSE UL MAIN-NAV-->
+        </div>
+        <!--CLOSE DIV CONTAINER-->
+    </div>
+    <!--CLOSE DIV ROW-->
+
+    <!--the MESSAGE contains text below the ROW-->
+    <div class="message">
+        <h1>INCLUSION CAMP 7 BAGUIO CITY <br> “Inclusion is not a matter of political correctness. It is the key to growth.”</h1>
+        <a href="http://www.doonething.org/quotes/inclusion-quotes.htm">
+            <p id="author">-Jesse Jackson</p>
+        </a>
+        <!--BUTTON-->
+        <div class="button-first">
+            <!--the functionality of BUTTON both applies on button half and button full-->
+            <a href="view.html" class="button button-half">SHOW MORE</a> </div>
+        <!--CLOSE DIV BUTTON-->
+    </div>
+    <!--CLOSE DIV MESSAGE-->
 </header>
-    
-    <div class="container-main">
-        <img src="./pics/test.png" alt="Inclusion Pics">
-        <div id="overlay">
-            <h1>Inclusion Camp 7 Baguio City</h1>
+<!--CLOSE HEADER-->
+<section id="about">
+    <!-- CONTAINER -->
+    <div class="container">
+        <h2>About Camp - 7</h2>
+        <div class="row info">
+            <div class="col-sm-8">
+                <p>Barangay Camp 7 is a place in Baguio wherein a large number of people are living. It’s one of the most visited place for its shops which sells “pasalubong” and good ambiance. It is located before the city proper along Kennon Road. <br> VISION
+                    <br> “A healthy barangay maintained through sustainable health and nutrition programs with the active participation, cooperation and support of the community as well as government and non-government sectors.”<br> MISSION <br> “The Camp 7 nutrition council is organized to implement health and nutrition programs geared toward the promotion of a healthy lifestyle for all barangay constituents.” </p>
+                <span class="signature"></span> </div>
+            <div class="col-md-4"> <img id="img-side" src="pictures/img6.jpg" alt="" class="img-responsive img-circle"> </div>
+        </div>
+        <div class="button-first">
+            <!--the functionality of BUTTON both applies on button half and button full-->
+            <a href="showmore.html" class="button button-full">SHOW MORE</a> </div>
+    </div>
+</section>
+<section id="boxes">
+    <h2>About Inclusion</h2>
+    <div class="container">
+        <div class="box"> <img src="pictures/img4.jpg" alt="">
+            <h3>What does it mean? </h3>
+            <p>Inclusion means having an open mind set and giving opportunities to everyone in the community to have an equal chance of living, rights, roles, and getting rid of discrimination on race, disability, gender, medical or any other special needs</p>
+        </div>
+        <div class="box"> <img src="pictures/img3.jpg" alt="">
+            <h3>Education</h3>
+            <p>Inclusion in education means that every child or student can learn and be taught equally, giving opportunity for everyone to attend school.</p>
+        </div>
+        <div class="box"> <img src="pictures/img2.jpg" alt="">
+            <h3>Social/Society</h3>
+            <p>An inclusive society is a society that over-rides differences of race, gender, class, generation, and geography, and ensures inclusion, equality of opportunity as well as capability of all members of the society to determine an agreed set of social institutions that govern social interaction. (Expert Group Meeting on Promoting Social Integration, Helsinki, July 2008)</p>
         </div>
     </div>
-    <main>
-        <section id="main-top">
-            <h2>What is Inclusion?</h2>
-            <p>Inclusion means having an open mind set and giving opportunities to 
-                everyone in the community to have an equal chance of living, rights, 
-                roles, and getting rid of discrimination on race, disability, gender, 
-                medical or any other special needs.</p>
-        </section>
-        <section id="main-mid">
-            <h2>Education</h2>
-            <p>Inclusion in education means that every child or student can learn 
-                and be taught equally, giving opportunity for everyone to attend school.   
-            </p>
-        </section>
-        <section id="main-bot">
-            <h2>Social/Society</h2>
-            <p>An inclusive society is a society that over-rides differences of race, 
-                gender, class, generation, and geography, and ensures inclusion, equality 
-                of opportunity as well as capability of all members of the society to 
-                determine an agreed set of social institutions that govern social 
-                interaction. (Expert Group Meeting on Promoting Social Integration, 
-                Helsinki, July 2008)
-            </p>
-        </section>
-    </main>
-    <footer>
-        <p> &copy; Copyright 2017. All Rights Reserved.</p>
-    </footer>
+    <div class="container">
+        <div class="box"> <img src="pictures/img4.jpg" alt="">
+            <h3>Sample </h3>
+            <p>A government is the system or group of people governing an organized community, often a state.[1] In the case of its broad associative definition, government normally consists of legislature, administration, and judiciary. Government is a means by which state policies are enforced, as well as a mechanism for determining the policy.</p>
+        </div>
+        <div class="box"> <img src="pictures/img3.jpg" alt="">
+            <h3>Sample</h3>
+            <p>A government is the system or group of people governing an organized community, often a state.[1] In the case of its broad associative definition, government normally consists of legislature, administration, and judiciary. Government is a means by which state policies are enforced, as well as a mechanism for determining the policy.</p>
+        </div>
+        <div class="box"> <img src="pictures/img2.jpg" alt="">
+            <h3>Sample</h3>
+            <p>A government is the system or group of people governing an organized community, often a state.[1] In the case of its broad associative definition, government normally consists of legislature, administration, and judiciary. Government is a means by which state policies are enforced, as well as a mechanism for determining the policy.</p>
+        </div>
+    </div>
+</section>
+<!--<section id="main">
+  <div class="container">
+    <article id="main-col">
+      <h1 class="page-title">About Us</h1>
+      <p> A government is the system or group of people governing an organized community, often a state.[1] In the case of its broad associative definition, government normally consists of legislature, administration, and judiciary. Government is a means by which state policies are enforced, as well as a mechanism for determining the policy. </p>
+      <p class="dark"> A government is the system or group of people governing an organized community, often a state.[1] In the case of its broad associative definition, government normally consists of legislature, administration, and judiciary. Government is a means by which state policies are enforced, as well as a mechanism for determining the policy. </p>
+    </article>
+    <aside id="sidebar">
+      <div class="dark">
+        <h3>What We Do</h3>
+        <p>A government is the system or group of people governing an organized community, often a state.[1] In the case of its broad associative definition, government normally consists of legislature, administration, and judiciary. Government is a means by which state policies are enforced, as well as a mechanism for determining the policy.</p>
+      </div>
+    </aside>
+  </div>
+  
+</section>-->
+<footer>
+    <p>Web Designed by GROUP 2, Copyright &copy; 2018</p>
+</footer>
 </body>
+</html>
